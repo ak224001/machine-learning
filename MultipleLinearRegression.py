@@ -6,6 +6,8 @@ Created on Tue Mar 12 19:15:03 2019
 """
 # Multiple Linear Regression
 
+# data preprocessing start
+
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -30,6 +32,8 @@ X = X[:,1:]
 from sklearn.cross_validation import train_test_split
 X_train, X_test, Y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
+#we don't need scaling in this
+
 # Feature Scaling
 """from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
@@ -37,6 +41,10 @@ X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 sc_y = StandardScaler()
 y_train = sc_y.fit_transform(y_train)"""
+
+
+#data preprocessing ends
+
 
 #Fitting Multiple regression to the training set
 from sklearn.linear_model import LinearRegression
