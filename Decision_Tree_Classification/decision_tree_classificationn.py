@@ -5,7 +5,7 @@ Created on Mon Apr  8 16:13:02 2019
 @author: Aditya
 """
 
-# Classification template
+#Based on salary and age to predict who is gonna buy new luxury suv car..
 
 # Importing the libraries
 import numpy as np
