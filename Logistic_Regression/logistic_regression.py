@@ -1,7 +1,7 @@
 # Logistic Regression
 
 
-#Based on salary and age to predict who to gonna buy new luxury suv car..
+#Based on salary and age to predict who is gonna buy new luxury suv car..
 
 # Importing the libraries
 import numpy as np
