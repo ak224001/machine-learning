@@ -1,5 +1,8 @@
 # Logistic Regression
 
+
+#Based on salary and age to predict who to gonna buy new luxury suv car..
+
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
